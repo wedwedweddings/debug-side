@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(to left top, rgba(65, 133, 164, 0.95), rgba(219, 137, 121, 0.95)),
+    url(https://res.cloudinary.com/wedwedweddings/image/upload/v1598890883/wedwedweddings.com/images/bg_yv8vld.jpg);
+  background-position: top;
+  background-size: cover;
+  color: #131313;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  position: relative;
+}
+
+.col {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.heading-primary {
+  backface-visibility: hidden;
+  color: #fff;
+  display: block;
+  font-size: 12rem;
+  font-weight: bold;
+  line-height: 12rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+img {
+  width: 256px;
+}
